@@ -3,7 +3,13 @@
   "version": "0.1.0",
   "description": "A starter environment for individual fullstack devs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "concurrent \"npm run start-api\" \"npm run start-client\"",
+    "start-api": "cd api && npm run start",
+    "start-client": "cd client && npm run start"
+  },
   "author": "George Rodier",
-  "license": "ISC"
+  "devDependencies": {
+    "concurrently": "^3.6.0"
+  }
 }
