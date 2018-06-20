@@ -71,3 +71,9 @@ typings/
 
 # Serverless directories
 .serverless
+
+# api dependency
+api/node_modules/
+
+# api dist
+api/dist/
