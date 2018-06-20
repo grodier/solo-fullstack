@@ -1,0 +1,9 @@
+{
+  "name": "solo-fullstack",
+  "version": "0.1.0",
+  "description": "A starter environment for individual fullstack devs",
+  "main": "index.js",
+  "scripts": {},
+  "author": "George Rodier",
+  "license": "ISC"
+}
