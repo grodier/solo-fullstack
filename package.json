@@ -1,15 +1,21 @@
 {
   "name": "solo-fullstack",
   "version": "0.1.0",
-  "description": "A starter environment for individual fullstack devs",
-  "main": "index.js",
-  "scripts": {
-    "start": "concurrent \"npm run start-api\" \"npm run start-client\"",
-    "start-api": "cd api && npm run start",
-    "start-client": "cd client && npm run start"
-  },
+  "description": "",
   "author": "George Rodier",
-  "devDependencies": {
-    "concurrently": "^3.6.0"
+  "license": "ISC",
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "solo-fullstack": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "cross-spawn": "^6.0.5",
+    "fs-extra": "^6.0.1",
+    "os": "^0.1.1",
+    "path": "^0.12.7"
   }
 }
